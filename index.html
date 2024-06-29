@@ -1,13 +1,15 @@
-<html><head>
-    <title>CLC Team-5</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>CLC Team-5</title>
+    <meta name="description" content="This tastefully simple food blog template is the perfect blogger style for chefs, food critics, food bloggers, cookbooks and lifestyle bloggers. With a clean, minimal look and easy-to-use blogging platform, it puts your images and content front and center.">
     <link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
     <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madefor.min.css">
     <link rel="stylesheet" href="https://static.parastorage.com/unpkg/@wix/wix-fonts@1.14.0/madeforDisplay.min.css">
-    <link rel="stylesheet" href="//static.parastorage.com/services/marketing-template-viewer/1.2144.0/app.min.css">
-    <meta name="description" content="This tastefully simple food blog template is the perfect blogger style for chefs, food critics, food bloggers, cookbooks and lifestyle bloggers. With a clean, minimal look and easy-to-use blogging platform, it puts your images and content front and center.">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="root">
@@ -17,22 +19,7 @@
                     <iframe id="content-iframe" data-hook="desktop-iframe" src="https://www.wix.com/demone2/food-blog" title="Food Blog" width="100%" height="100%" class="eZTjsa"></iframe>
                 </div>
             </div>
-            <div data-hook="info-pop-up" class="M05QSQ">
-                <div class="E0wHmq">
-                    <button data-hook="card-close" class="eds_d0"><span class="ydbrSa">close info popup</span></button>
-                    <div class="qLnKwP">
-                        <h1 data-hook="card-title" class="PHJvhr">Food Blog - Website Template</h1>
-                        <div class="CEjC4K">
-                            <h3 data-hook="card-good-for-title" class="xqspyG">Good For:</h3>
-                            <p data-hook="card-good-for" class="gsbPc5">Bloggers, Photographers, Cooks, Chefs, Lifestyle Bloggers, Restaurants, Cafes.</p>
-                        </div>
-                        <div class="CEjC4K">
-                            <h3 class="xqspyG">Description:</h3>
-                            <p data-hook="card-description" class="gsbPc5">This tastefully simple food blog template is the perfect blogger style for chefs, food critics, food bloggers, cookbooks and lifestyle bloggers. With a clean, minimal look and easy-to-use blogging platform, it puts your images and content front and center.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <script src="https://static.parastorage.com/polyfill/v3/polyfill.min.js?features=default,es6,es7,es2017,es2018,es2019,fetch&amp;flags=gated&amp;unknown=polyfill"></script>
@@ -52,82 +39,5 @@
             });
         };
     </script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-
-
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-</body></html>
+</body>
+</html>
